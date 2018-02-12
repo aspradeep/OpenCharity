@@ -1,0 +1,33 @@
+name = OpenCharity
+description = Open charity is an organisation that hosts events in London about open source software and solution for charities.
+screenshot = images/screenshot.png
+core = 7.x
+
+regions[page_top] = Page top
+regions[navbar] = Nav bar
+regions[highlight] = Highlight
+regions[content] = Content
+regions[members] = Members Section
+regions[blog] = Blog Section
+regions[footer] = Footer
+
+features[] = logo
+features[] = favicon
+features[] = main_menu
+
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/jquery.slicknav.min.js
+scripts[] = js/scripts.js
+
+plugins[panels][layouts] = layouts
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/owl.carousel.min.css
+stylesheets[all][] = css/owl.theme.default.min.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/slicknav.min.css
+
+settings[basic_tabs] = 1
+settings[basic_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0
